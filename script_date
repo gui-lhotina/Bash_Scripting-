@@ -1,0 +1,29 @@
+
+#!/bin/bash 
+
+
+echo "Olá gui_lhotina, divirta-se no ciberespaço !"
+echo "Para arrumar a data siga os próximos passos" 
+echo "Digite o Mês:"
+	read mes
+echo "Digite o dia:" 
+	read dia
+echo "Digite as horas:" 
+	read hora
+echo "Digite os minutos:"
+	read min
+echo "Digite o ano:" 
+	read ano
+echo "Digite os segundos:"
+	read seg
+
+date "$mes$dia$hora$min$ano.$seg"
+
+
+
+
+
+
+
+  
+
